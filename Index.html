@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+    <title>Recette de cuisine</title>
+    <meta charset="utf-8">
+
+    <!-- Métadonnées standards -->
+    <meta name="description" content="de délicieuses recette de cuisine pour préparer des plats savoureux." >
+    <meta name="keywords" content="recettes, marocaines, maghreb, cuisine, plat, délicieux" >
+    <meta name="author" content="Camillia Fakkak/ Alami Chentoufi" >
+        
+    <!--Métadonnées LD-JSON -->
+    <script type="application/ld+json">
+      {
+				"@context": "https://schema.org",
+        "@type": "Recipe",
+        "name": "Recette de famille",
+        "description": "de délicieuses recette de cuisine pour préparer des plats savoureux.",
+        "author": {
+        "@type": "Person",
+        "name": "Camillia Fakkak/ Alami Chentoufi"
+        }
+     </script>
+
+    </head>
+    <body>
+        <!-- Balise de titre H1 (Titre de niveau 1) Car c'est le titre principal du texte -->
+        <h1>Recette de famille</h1> <br>
+        <!-- Paragraphe de présentation de ma page web -->
+        <p>Voici un tableau de la liste des plats de ma famille et que nous verrons dans cette page: </p>
+            <!-- Création d'un tableau, contenant des liens non cassé vers une section spécifique de ma 
+            page (Cela envoie le nom du plat vers sa photo et son titre) -->
+		<table>
+
+        <!-- Premiere ligne du tableau (entêtes des colonnes-->
+            <tr>
+                <th> Plat </th> <!-- Nom du plat -->
+                <th> Présentation </th> <!-- Description du plat -->
+                <th> Difficulté</th> <!-- Niveau de difficulté de préparation -->
+            </tr>
+        <!--Deuxième ligne du tableau-->
+            <tr>
+                <td><a href="#baghrir">Les baghrir</a> </td>
+                <td> Les baghrir : appelée aussi en français mille trous, est une crêpe maghrébine. 
+                Ses troues proviennent d'une réaction de la levure avec la chaleur
+                et le contact avec l'air, formant ainsi des bulles de dioxyde de carbone. 
+                Ces bulles s'élèvent à la surface de la pâte, créant les trous 
+                caractéristiques des baghrir. </td>
+			    <td> Facile </td>   
+            </tr>
+        <!--Toisième ligne du tableau -->
+            <tr>
+                <td><a href="#kefta">Les kefta</a> </td>
+                <td> Les kefta : préparation à base de viande et d’épices.  </td>
+                <td> Facile </td>
+            </tr>
+        <!--Quatrième et derniere ligne du tableau-->
+            <tr>
+                <td><a href="#tajine-de-poulet-citrons-confits"> tajine de poulet 
+                citrons confits</a> </td>
+                <td> tajine de poulet au citrons confits, frites et olives </td>
+                <td> Moyen </td>
+            </tr>
+		</table>
+			<!-- Création d'une liste sans ordre particulier -->
+		<ul>
+		   <!-- Un élément d'une liste qui affiche 
+                un titre "Les baghrir" suivi d'une image qui contient un titre alternatif pour l'image au cas
+                ou l'image ne peut être chargé et une infobulle quand nous la survolle avec la sourie. -->
+		    <li> <span class="titre" id="baghrir"> Les baghrir : </span><br> <br> <img src="baghrir.jpg" 
+            alt="baghrir" title="Baghrir ou mille troue"> </li>
+		</ul>		
+				<!-- Balise de titre H2, (titre de niveau 2) -->
+		<h2> Matériel : </h2>
+        <p> Mixeur ou batteur éléctrique </p>
+        <h2> Ingrédient : </h2>
+        <!--Autre liste sans ordre particulier -->
+        <ul>
+            <!-- Les éléments de la liste (ingrédient des baghrir) --> 
+            <li> 1 verre de farine </li>
+            <li> 2 verre de semoule de blé fine, extra fine ou normal (à ne pas confondre avec de 
+            la semoule de couscous)</li>
+            <li>4 verre d'eau tiéde</li>
+            <li>1 C.C de sucre</li>
+            <li>1 C.C de sel</li>
+            <li>un saché de levure chimique</li>
+            <li>0.5 C.C de levure boulangère</li>
+        </ul>
+        <h2> Recette : </h2> 
+         <!-- Création d'une liste ordonnée des étapes de la recette -->
+        <ol> 
+        <!-- Les éléments de la liste (étape 1, étape 2, étape 3 de la recette) -->
+            <li>Dans le mixeur ou dans un récipient, mettre tous les ingrédients, peu importe l'ordre, et mixer 
+            jusqu'à obtenir une pâte homogène.</li>
+            <li>Laisser reposer la pâte pendant 30 minutes à 1 heure à température ambiante.</li>
+            <li>Faire chauffer une poêle, plus elle sera chaude, plus il y aura de trous dans 
+            les baghrir.</li>
+		</ol>
+		<ul>
+            <!-- Un élément d'une liste qui affiche un titre "Les kefta" suivi d'une image qui contient 
+            un titre alternatif pour l'image au cas ou l'image ne peut être chargé et une infobulle 
+            quand ont la survolle avec la sourie.  -->
+           <li> <span class="titre" id="kefta"> Les kefta :  </span> <br> <br> <img src="kefta.jpg" 
+           width="300" alt="kefta">
+           
+        </ul>
+        <h2> Matériel : </h2> 
+        <p>Saladier </p>
+        <h2> Ingrédient : </h2>
+		<ul>
+            <!-- Les éléments de la liste (ingrédient) --> 
+            <li>1kg de viande haché </li>
+            <li>1 C.C de Sel </li>
+            <li>0.5 C.C Poivre </li>
+            <li>1 C.C Cannelle </li>
+            <li>1 C.C Piment doux </li>
+            <li>1 C.C Gingembre </li>
+            <li>2 Oignons </li>
+            <li>3 C.S de Persil </li>
+		</ul>
+
+        <h2> Recette : </h2> 
+		<ol>
+			<!-- Les éléments de la liste (étape 1, étape 2, étape 3 de la recette) -->
+			<li>Dans un saladier, mettre l'oignon haché, la viande hachée, les épices, la coriandre et le persil.</li>
+			<li>Mélanger énergiquement de préférence à la main pour bien incorporer tous les ingrédients.</li>
+			<li>Former les keftas selon votre préférence, que ce soit des boulettes ou des brochettes.</li>
+			<li>Vous pouvez les faire cuire au four, à la poêle ou au barbecue.</li>
+			<li>Vous pouvez les déguster telles quelles, mais elles peuvent également être utilisées dans d'autres plats, 
+            comme la harira. On peut aussi les manger dans un tajine de kefta à base de tomate et d'œuf,
+            ou encore avec des pommes de terre et des olives.</li>
+		</ol>
+		<ul>
+           <li><span class="titre" id="tajine-de-poulet-citrons-confits">Tajine de poulet aux citrons confits:</span> <br><br> <img src="poulet.jpg" width="300"
+                                                                                                                                    alt="Tajine de poulet aux citrons confits, frites et olives">
+        </ul>   
+		<h2> Matériel :</h2> <p>une cocotte minute</p>
+		<h2>Ingrédients :</h2>
+		<ul>
+		    <!-- Les éléments de la liste (ingrédient) --> 
+			<li>1 Poulet entier ou 4/6 morceaux de poulet</li>
+			<li>2 Citrons confits</li>
+			<li>Olives</li>
+			<li>4 cuillères à soupe d'huile d'olive</li>
+			<li>2 Oignons</li>
+			<li>1 cuillère à café de sel</li>
+			<li>0.5 cuillère à café de poivre</li>
+			<li>1 cuillère à café de gingembre</li>
+			<li>1 cuillère à café de curcuma</li>
+			<li>2 cuillères à café de coriandre</li>
+			<li>2 cuillères à café de persil</li>
+			<li>3 gousses d'ail</li>
+		</ul>
+		<h2>Recette :</h2>
+		<ol>
+		     <!-- Les éléments de la liste (étape 1, étape 2, étape 3 de la recette) -->
+			<li>Dans un saladier, râper l'oignon et l'ail, récupérer la chair des citrons confits et mettez-la dans
+            le saladier avec le poulet coupé. Ajouter les épices, le persil et la coriandre, 
+            puis mélanger. Si possible, laissez mariner quelques heures.</li>
+			<li>Dans une cocotte, mettez 3 cuillères à soupe d'huile d'olive, puis ajoutez le poulet dans la cocotte 
+            et faites-le dorer pendant 5 à 10 minutes. Quand le poulet est doré, ajoutez de l'eau sur le poulet, 
+            environ 1 grand verre d'eau. Fermez la cocotte et mettez le feu fort jusqu'à ce que 
+            la cocotte siffle, puis réduisez le feu moyen pendant 15 minutes. Une fois la cuisson terminée, 
+            ajoutez les olives. Si vous avez trop d'eau, laissez la cocotte ouverte sur feu doux et laissez 
+            l'eau s'évaporer.</li>
+			<li>Dégustez de préférence avec des frites.</li>
+		</ol>
+				
+      </body>
+</html>
